@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <script>
+        (function() {
+        var password = "2009";
+        var userEntry = prompt("Enter the password to access this portfolio:");
+    
+        if (userEntry !== password) {
+        alert("Incorrect password!");
+        document.open();
+        document.write("<div style='text-align:center; padding-top:50px; font-family:sans-serif;'><h2>Access Denied</h2><p>Refresh the page to try again.</p></div>");
+        document.close();
+        window.stop();
+        }
+        })();
+      </script>
+    </head>
+    <body>
+      <h1>Isaac,s portfolio</h1>
+      <h2>hello I,m isaac</h2>
+      <img src="Snapchat-1469846693.jpg" alt="Profile photo of isaac" width="150">
+      <p>welcome to my personal page! i am currently learning web development.</p>
+      <hr>
+      <h2>About me</h2>
+      <p>i love creativity and UI/UX designs, and i am an aspiring software developer.</p>
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>coding</li>
+        <li>playing the piano</li>
+        <li>playing different games</li>
+      </ul>
+
+      <h2>--Social links--</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/isaac-olajide-882448434/" target="_blank">linkedin profile</a>
+        </li>
+      </ul>
+
+
+    </body>
